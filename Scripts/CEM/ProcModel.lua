@@ -49,7 +49,7 @@ function ProcModel:Box(width, height, depth)
    self:addQuad(origin+rightDir+forwardDir, rightDir:Inverse(), upDir, width, height) --back
    self:addQuad(origin+forwardDir, forwardDir:Inverse(), upDir, depth, height) --left
    self:addQuad(origin+forwardDir, rightDir, forwardDir:Inverse(), width, depth) --bottom
-   self:addQuad(origin+upDir, rightDir, forwardDir, width, depth, 20) --bottom
+   self:addQuad(origin+upDir, rightDir, forwardDir, width, depth, 20) --top
    self:UpdateSurface()
 
    return model
