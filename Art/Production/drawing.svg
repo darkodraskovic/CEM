@@ -15,9 +15,52 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="drawing.svg">
+   sodipodi:docname="drawing.svg"
+   inkscape:export-filename="C:\Users\Darko\Radovi\AppDev\Leadwerks\CEM\Materials\Sprites\Laser_Red.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
   <defs
-     id="defs4" />
+     id="defs4">
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4142"
+       x="-0.0122625"
+       width="1.024525"
+       y="-0.5605715"
+       height="2.121143">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.8175"
+         id="feGaussianBlur4144" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4150"
+       x="-0.0126"
+       width="1.0252"
+       y="-0.25200001"
+       height="1.504">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.84"
+         id="feGaussianBlur4152" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4180"
+       x="-0.021672754"
+       width="1.0433455"
+       y="-0.99075461"
+       height="2.9815092">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.4448503"
+         id="feGaussianBlur4182" />
+    </filter>
+  </defs>
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -25,9 +68,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.959798"
-     inkscape:cx="405.32923"
-     inkscape:cy="418.35475"
+     inkscape:zoom="2"
+     inkscape:cx="359.82511"
+     inkscape:cy="445.2418"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -35,7 +78,11 @@
      inkscape:window-height="1027"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
-     inkscape:window-maximized="1">
+     inkscape:window-maximized="1"
+     inkscape:snap-bbox="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-global="false">
     <inkscape:grid
        type="xygrid"
        id="grid3336"
@@ -51,7 +98,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -59,5 +106,39 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-308.26772)" />
+     transform="translate(0,-308.26772)">
+    <rect
+       style="fill:#ff5555;fill-opacity:0.50196078;filter:url(#filter4150)"
+       id="rect4134"
+       width="160"
+       height="7.9999995"
+       x="320"
+       y="612.36218"
+       transform="matrix(2.1439129,0,0,2.5472774,-360.81515,-944.93326)"
+       inkscape:export-filename="C:\Users\Darko\Radovi\AppDev\Leadwerks\CEM\Materials\Sprites\Laser_Red.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       y="614.61218"
+       x="320"
+       height="3.4999995"
+       width="160"
+       id="rect4136"
+       style="fill:#ff5555;fill-opacity:0.76862745;filter:url(#filter4142)"
+       transform="matrix(2.1439129,0,0,2.5472774,-360.81515,-944.93326)"
+       inkscape:export-filename="C:\Users\Darko\Radovi\AppDev\Leadwerks\CEM\Materials\Sprites\Laser_Red.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#ffdd60;fill-opacity:0.69411765;filter:url(#filter4180)"
+       id="rect4154"
+       width="160"
+       height="3.4999995"
+       x="320"
+       y="614.61218"
+       transform="matrix(2.160933,0,0,1.1558976,-367.62317,-87.339398)"
+       inkscape:export-filename="C:\Users\Darko\Radovi\AppDev\Leadwerks\CEM\Materials\Sprites\Laser_Red.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+  </g>
 </svg>

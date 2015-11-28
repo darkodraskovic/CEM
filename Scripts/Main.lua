@@ -24,8 +24,10 @@ if Map:Load(mapfile)==false then return end
 
 --Libs&Includes
 inspect = require 'lua/inspect'
+import 'Scripts/DebugInfo.lua'
 import 'Scripts/CEM/ProcModel.lua'
 import 'Scripts/LED/LED.lua'
+import 'Scripts/CEM/Cuboid.lua'
 import 'Scripts/CEM/Game.lua'
 
 --Start
