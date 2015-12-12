@@ -33,3 +33,17 @@ function DebugInfo:GetText(obj, text)
 	
 	return text
 end
+
+function DebugInfo:InitPickSphere()
+	--Create a sphere to indicate where the pick hits
+	self.pickSphere = Model:Sphere() 
+	self.pickSphere:SetColor(1.0,0.0,0.0) 
+	self.pickSphere:SetPickMode(0) 
+	self.pickSphere:SetScale(0.1) 
+	self.pickSphere:Hide() 
+end
+
+function DebugInfo:Init(info)
+	self:InitInfo(info)
+	self:InitPickSphere()
+end

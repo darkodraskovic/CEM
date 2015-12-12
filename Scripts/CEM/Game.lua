@@ -11,23 +11,11 @@ Game.camera:SetScript("Scripts/Objects/Cameras/FlyCam.lua")
 
 sprite = Sprite:Create()
 function Game:Start()	
-	--pickinfo
-	--DebugInfo:SetPickInfo()
-	DebugInfo:InitInfo(Cuboid.cutInfo)
-	
-	--Create a sphere to indicate where the pick hits
-	self.picksphere = Model:Sphere() 
-	self.picksphere:SetColor(1.0,0.0,0.0) 
-	self.picksphere:SetPickMode(0) 
-	self.picksphere:SetScale(0.1) 
-	self.picksphere:Hide() 
+	DebugInfo:Init(Cuboid.cutInfo)	
 
-	local model = ProcModel:Box(4, 1, 3)
-	material = Material:Load("Materials/Developer/bluegrid.mat")
-	model:SetMaterial(material)
+	local model = ProcModel:Box(4, 1, 3, "Materials/Developer/bluegrid.mat")
 	--model:Move(2,0,-2)	
-	
-	
+
 	--local material = Material:Create()
 	--local texture = Texture:Load("Materials/Sprites/Laser_Red.tex")
 	--material:SetTexture(texture)
@@ -40,16 +28,14 @@ end
 function Game:Update()	
 	--pick
 	if (self.window:MouseHit(1)) then
-		self.picksphere:Hide() 
+		DebugInfo.pickSphere:Hide() 
 		local pickInfo = PickInfo()
 		if (self.camera:Pick(Game.windowCenter.x, Game.windowCenter.y,pickInfo,0,true)) then			
-			self.picksphere:Show() 
-			self.picksphere:SetPosition(pickInfo.position) 
-			--DebugInfo:PrintPickInfo(pickInfo)
+			DebugInfo.pickSphere:Show() 
+			DebugInfo.pickSphere:SetPosition(pickInfo.position) 
 			Cuboid:FillSideInfo(pickInfo)
 			local cutInfo = Cuboid:FillCutInfo()
 			DebugInfo:PrintInfo(Cuboid.cutInfo)
-			--System:Print(inspect(Cuboid.sideInfo))
 			
 			sprite:SetPosition(pickInfo.position)
 			sprite:SetViewMode(cutInfo.facing)

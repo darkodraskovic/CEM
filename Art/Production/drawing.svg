@@ -60,6 +60,32 @@
          stdDeviation="1.4448503"
          id="feGaussianBlur4182" />
     </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4173"
+       x="-0.024818182"
+       width="1.0496364"
+       y="-0.728"
+       height="2.456">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="3.64"
+         id="feGaussianBlur4175" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4187"
+       x="-0.036634839"
+       width="1.0732697"
+       y="-1.074622"
+       height="3.1492439">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="5.3731098"
+         id="feGaussianBlur4189" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -69,8 +95,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2"
-     inkscape:cx="359.82511"
-     inkscape:cy="445.2418"
+     inkscape:cx="427.0002"
+     inkscape:cy="497.43705"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -137,6 +163,38 @@
        x="320"
        y="614.61218"
        transform="matrix(2.160933,0,0,1.1558976,-367.62317,-87.339398)"
+       inkscape:export-filename="C:\Users\Darko\Radovi\AppDev\Leadwerks\CEM\Materials\Sprites\Laser_Red.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#000000;fill-opacity:1"
+       id="rect4145"
+       width="352"
+       height="18"
+       x="320"
+       y="514.86218"
+       inkscape:export-filename="C:\Users\Darko\Radovi\AppDev\Leadwerks\CEM\Materials\Sprites\Laser_Red.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="C:\Users\Darko\Radovi\AppDev\Leadwerks\CEM\Materials\Sprites\Laser_Red.png"
+       y="517.86218"
+       x="320"
+       height="12"
+       width="352"
+       id="rect4159"
+       style="fill:#ff0000;fill-opacity:1;filter:url(#filter4173)"
+       transform="matrix(0.94609309,0,0,0.83415408,26.737824,86.880428)" />
+    <rect
+       transform="matrix(0.91972904,0,0,0.32367734,39.814378,354.29989)"
+       style="fill:#ffff00;fill-opacity:0.69642861;filter:url(#filter4187)"
+       id="rect4177"
+       width="352"
+       height="12"
+       x="320"
+       y="517.86218"
        inkscape:export-filename="C:\Users\Darko\Radovi\AppDev\Leadwerks\CEM\Materials\Sprites\Laser_Red.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
